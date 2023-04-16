@@ -21,7 +21,6 @@ public class PatientController {
     @Autowired
     private PatientRepository patientRepository;
     @GetMapping("/user/index")
-    @PreAuthorize("hasRole('ROLE_USER')")
     public String index(Model model,
                         @RequestParam(name = "page",defaultValue = "0") int page,
                         @RequestParam(name = "size",defaultValue = "5") int size,
