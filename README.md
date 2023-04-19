@@ -17,13 +17,13 @@ La logique du JPA, combinée avec la notion d'application fermée à la modifica
 
 
 ## Le contexte generale de l'application
-L'idée de cette application est de créer un système de gestion de patients utilisant Spring Boot et JPA pour la persistance des données. L'application permet aux administrateurs de gérer les informations des patients, tandis que les utilisateurs simples peuvent seulement visualiser la liste des patients. Les fonctionnalités principales de l'application incluent l'ajout, la suppression, et la modification des patients, ainsi que l'affichage paginé des patients dans un tableau.
-
-L'application permettra aux administrateurs de se connecter à un compte sécurisé avec des autorisations spécifiques pour effectuer des opérations de gestion des patients. Une fois connecté, l'administrateur pourra ajouter de nouveaux patients en fournissant des informations telles que le nom, le prénom, la date de naissance, l'adresse, et les antécédents médicaux. Les administrateurs auront également la possibilité de modifier les informations des patients existants, par exemple pour mettre à jour les informations démographiques ou médicales.
-
-En outre, l'application offrira la possibilité aux administrateurs de supprimer les patients du système si nécessaire. La suppression des patients sera gérée de manière sécurisée, en s'assurant que seuls les administrateurs autorisés peuvent effectuer cette opération.
+L'idée de cette application est de créer un système de gestion de patients utilisant Spring Boot et JPA pour la persistance des données. L'application permet aux administrateurs de gérer les informations des patients, tandis que les utilisateurs simples peuvent seulement visualiser la liste des patients. Les fonctionnalités principales de l'application incluent l'ajout, la suppression, et la modification des patients, ainsi que l'affichage des patients dans un tableau.
 
 Pour faciliter la visualisation des patients, l'application fournira une fonctionnalité d'affichage paginé des patients dans un tableau. Cela permettra aux utilisateurs de naviguer à travers la liste des patients de manière conviviale et de rechercher des patients spécifiques en utilisant des filtres tels que le nom, le prénom, ou d'autres critères.
+
+L'application permettra aux administrateurs de se connecter à un compte sécurisé avec des autorisations spécifiques pour effectuer des opérations de gestion des patients. Une fois connecté, l'administrateur pourra ajouter de nouveaux patients en fournissant des informations. Les administrateurs auront également la possibilité de modifier les informations des patients existants.
+
+En outre, l'application offrira la possibilité aux administrateurs de supprimer les patients du système si nécessaire. La suppression des patients sera gérée de manière sécurisée, en s'assurant que seuls les administrateurs autorisés peuvent effectuer cette opération.
 
 Il est important de noter que seuls les administrateurs auront la possibilité d'effectuer des opérations de modification ou de suppression des patients, tandis que les utilisateurs simples pourront uniquement visualiser la liste des patients sans pouvoir effectuer de modifications.
 
